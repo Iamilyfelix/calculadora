@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-image:linear-gradient(to right,#A68F97,#4B4952);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.cal{
+    background-color:white;
+    border-radius:10px;/*borda redondinha*/
+    box-shadow: 5px 5px 20px #1f1e22a5;/*sombra*/
+    width:30%;/*largura*/
+    padding:30px;/*como se fosse uma borda*/
+    margin: auto;/*espaço entre o conteudo e as"paredes" do site */
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    color:#fbfcfc;
+    text-align:center;/*alinhamento do texto:centro*/
+    font-size: 45px;
+}
+button{
+    background-color: #A68F97;
+    color: #030303;
+    border-radius: 5px;
+    border-color: #775e92;
+}
+input{
+    background-color: #A68F97;
+    color: #030303;
+    border-radius: 5px; /*borda redonda*/
+}
+ input:focus {
+            border-color: #6288da; /* Borda azul quando focado */
+            outline: none; /* Remove o contorno padrão */
+        }
+ span{ 
+    font-weight: bold; 
+ }
